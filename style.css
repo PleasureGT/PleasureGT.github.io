@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+h1, p, h2, h3
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+li, a, button
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo
+{
+    cursor: pointer;
+}
+.nav__links
+{
+    list-style: none;
+}
+.nav__links li
+{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.nav__links li a
+{
+    font-size: 26px;
+    transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover
+{
+    color: aliceblue;
+}
+button
+{
+    padding: 9px 25px;
+    background-color: rgb(183, 194, 219);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+button:hover
+{
+    background-color: rgba(167, 182, 185, 0.8);
+}
+
+/*Hero Image*/
+.aboutme
+{
+    display: flex;
+    margin-top: 100px;
+}
+.flex-child
+{
+    flex: 1;
+    margin-left: 330px;
+}
+.flex-child:flex-child
+{
+    margin-right: 10px;
+}
+
+/*CV*/
+.Cv
+{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+.cvdown
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/*Experience*/
+.expIntro
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+.intern
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.speNet
+{
+    margin-left: 200px;
+}
+.net
+{
+    flex: 1;
+    justify-content: center;
+}
+.spacing
+{
+    margin-top: 10px;
+}
+
+/*Projects*/
+.Projects
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
