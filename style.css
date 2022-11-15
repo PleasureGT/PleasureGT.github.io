@@ -72,17 +72,18 @@ button:hover
 {
     display: flex;
     margin-top: 100px;
+    justify-content: center;
 }
-.flex-child
+.aboutme p
 {
-    flex: 1;
-    margin-left: 330px;
+    padding-top: 5px;
 }
-.flex-child:flex-child
+.image  img
 {
-    margin-right: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 190px;
 }
-
 /*CV*/
 .Cv
 {
@@ -95,6 +96,10 @@ button:hover
     display: flex;
     justify-content: center;
     margin-top: 50px;
+}
+.cvIntro p 
+{
+    padding: 5px;
 }
 
 /*Experience*/
@@ -111,20 +116,18 @@ button:hover
     justify-content: center;
     margin-top: 50px;
 }
-.speNet
+.intern p
 {
-    margin-left: 200px;
-}
-.net
-{
-    flex: 1;
-    justify-content: center;
+    padding: 2px;
 }
 .spacing
 {
     margin-top: 10px;
 }
-
+.net
+{
+    margin: 10px
+}
 /*Projects*/
 .Projects
 {
@@ -132,3 +135,23 @@ button:hover
     justify-content: center;
     margin-top: 50px;
 }
+.project1
+{
+    margin-left: 50px;
+}
+.projectDetail
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.colorRes a:hover
+{
+    background: rgb(54, 212, 6);
+}
+.project1 p 
+{
+    margin-bottom: 5px;
+    padding-top: 2px;
+}
+
