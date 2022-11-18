@@ -6,17 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="./main.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
     <title>Pleasure</title>
 </head>
 <body>
     <header>
+        <!-- https://www.youtube.com/watch?v=PwWHL3RyQgk&t=607s -->
         <img class="logo" src="./logo.png"
        width="150" length="150" alt="logo" href="https://www.linkedin.com/in/pleasure-ghotra-0b8a01203/">
         <nav>
             <ul class="nav__links">
                 <li><a href="#">Home</a></li>
-                <li><a href="https://www.linkedin.com/in/pleasure-ghotra-0b8a01203/">linkedin</a></li>
+                <li><a href="#">Projects</a></li>
                 <li><a href="#">About Me</a></li>
+                <li><a href="#">Resume</a></li>
             </ul>
         </nav>
         <a class="cta" href="mailto:pleasuregt01@gmail.com"><button>Contact Me</button></a>
@@ -24,25 +27,48 @@
 
     <div class="aboutme">
         <div class="flex-child">
-            <h1>Hi, I'm <span class="name">Pleasure</span></h1>
-            <h2>Full Stack Developer</h2>
+            <h1>Hi, I'm <span class="name"> <div class="waviy">
+                <span style="--i:1">P</span>
+                <span style="--i:2">L</span>
+                <span style="--i:3">E</span>
+                <span style="--i:4">A</span>
+                <span style="--i:5">S</span>
+                <span style="--i:6">U</span>
+                <span style="--i:7">R</span>
+                <span style="--i:8">E</span>
+                <span style="--i:8">.</span>
+                <span style="--i:8">.</span>
+                <span style="--i:8">.</span>
+               </div></span></h1>
+            <h2> < Full Stack Developer /></h2>
             <p>Grounded and solution-oriented Computer science </p>
             <p>student with experience across a wide variety of</p>
             <p>software development. Looking for a role where</p>
             <p>I can grow, learn, and be self-motivated by</p>
             <p>experienced team members while drawing on projects.</p>
-            <p>Passionate about back-end development,</p>
+            <p>Passionate about back-end development</p>
             <p>.NET Core, JS, Python, SQL</p> 
             <p>Hoping to learn new technologies along the way</p></p>
         </div>
-        <div class="flex-child image">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./1645653837730.jpg" alt="Avatar" style="width:200px;height:200px;">
+              </div>
+              <div class="flip-card-back">
+                <h1>Pleasure Singh</h1> 
+                <p>Full Stack Developer</p> 
+              </div>
+            </div>
+          </div>
+        <!-- <div class="flex-child image">
             <img src="./1645653837730.jpg" alt="hero" >
-        </div>
+        </div> -->
     </div>
 
     <div class="Cv">
         <div class="cvIntro">
-            <h1>My CV</h1>
+            <h1 id="centerit">My CV</h1>
             <p>Here is a link to my CV</p>
             <p>I included both French <br>& English version</p>
 
@@ -51,11 +77,41 @@
 
     <div class="cvdown">
         <form method="get" action="./GhotraSinghPleasure.pdf" target="_blank">
-            <button type="submit">Download</button>
+            <button type="submit">Resume</button>
          </form>
     </div>
 
-    <div class="expIntro">
+    
+    <footer>
+        <div class="footer">
+            <div class="firstSec">
+                <h1 >Reach out to me</h1>
+                <div class="centerdivsp">
+                    <a href="https://www.facebook.com/profile.php?id=100009712839700" class="fa fa-facebook"></a>  
+                    <a href="https://www.linkedin.com/in/pleasure-ghotra-0b8a01203/" class="fa fa-linkedin"></a>  
+                    <a href="pleasuregt01@gmail.com" class="fa fa-google"></a>  
+                    <a href="https://github.com/PleasureGT" class="fa fa-github"></a> 
+                </div>
+            </div>
+            <div class="firstSec">
+                <h1  class="toMove">Pleasure</h1>
+                <p>Console.Writeline("Hello World")</p>
+            </div>
+            <div class="firstSec">
+                <h1>Menu</h1>
+                <p>Home</p>
+                <p>Projects</p>
+                <p>About Me</p>
+                <p>Resume</p>
+            </div>
+            
+        </div>
+        
+    </footer>
+    <div>
+        <p class="footer__text">© 2022 <a href="mailto:pleasuregt01@gmail">&nbsp; Pleasure Ghotra</a></p>
+    </div>
+    <!-- <div class="expIntro">
         <h1>My Experiences</h1>
     </div>
     
@@ -140,10 +196,10 @@
         </div>
 
 
-    </div>
-    
+    </div> -->
 
- 
-    
+   
+  
+  
 </body>
 </html>
