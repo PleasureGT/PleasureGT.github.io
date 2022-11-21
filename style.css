@@ -83,7 +83,6 @@ button:hover
 .aboutme
 {
     display: flex;
-    margin-top: 100px;
     justify-content: center;
 }
 .aboutme p
@@ -105,11 +104,20 @@ button:hover
 {
     width: 450px;
 }
+.textHobver
+{
+    display: flex;
+    justify-content: center;
+    transition: all 0.3s ease 0s;
+}
+.textHobver:hover
+{
+    color: rgb(61, 116, 119);
+}
 /*CV*/
 .Cv
 {
     display: flex;
-    margin-top: 100px;
     justify-content: center;
 }
 #centerit
@@ -120,81 +128,26 @@ button:hover
 {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
 }
 .cvIntro p 
 {
     padding: 5px;
 }
-
-/*Experience*/
-.expIntro
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 25px;
-}
-.intern
-{
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-}
-.intern p
-{
-    padding: 2px;
-}
-.spacing
-{
-    margin-top: 10px;
-}
-.net
-{
-    margin: 10px
-}
-/*Projects*/
-.Projects
-{
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-}
-.project1
-{
-    margin-left: 50px;
-}
-.projectDetail
-{
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-}
-.colorRes a:hover
-{
-    background: rgb(54, 212, 6);
-}
-.project1 p 
-{
-    margin-bottom: 5px;
-    padding-top: 2px;
-}
-
 /*Footer*/
 .footer
 {
     bottom: 0;
+    position: absolute;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
     width: 100%;
-    
+    height: 210px;
 }
 .firstSec
 {
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
     margin-bottom: 30px;
     margin-right: 180px;
 
@@ -213,11 +166,18 @@ button:hover
 {
     transition: all 0.3s ease 0s;
 }
+.fotfot
+{
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    background-color: rgb(179, 204, 225);
+}
 .footer__text
 {
     display: flex;
     justify-content: center;
-    background-color: rgb(179, 204, 225);
 }
 .toMove
 {

@@ -7,6 +7,7 @@
     padding: 0;
 }
 body{
+
     background-color: #d3d3d3;
 
 }
@@ -83,7 +84,7 @@ button:hover
 .aboutme
 {
     display: flex;
-    margin-top: 100px;
+    margin-top: 60px;
     justify-content: center;
 }
 .aboutme p
@@ -167,8 +168,8 @@ button:hover
 .projectDetail
 {
     display: flex;
-    justify-content: center;
-    margin-top: 50px;
+    justify-content: space-evenly;
+
 }
 .colorRes a:hover
 {
@@ -179,7 +180,18 @@ button:hover
     margin-bottom: 5px;
     padding-top: 2px;
 }
+.tagToLCICK
+{
+    display: flex;
+    
+    transition: all 0.3s ease 0s;
+    justify-content: center;
 
+}
+.tagToLCICK:hover
+{
+    color: rgb(61, 116, 119);
+}
 /*Footer*/
 .footer
 {
@@ -214,14 +226,18 @@ button:hover
 {
     transition: all 0.3s ease 0s;
 }
+.fotfot
+{
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    background-color: rgb(179, 204, 225);
+}
 .footer__text
 {
     display: flex;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
     justify-content: center;
-    background-color: rgb(179, 204, 225);
 }
 .toMove
 {
@@ -344,8 +360,7 @@ text-align: center;
 .restaurantWeb h1, h3, p, img
 {
     display: flex;
-    justify-content: space-around;
-    margin-right: 50px;
+    justify-content: center;
 }
 .restaurantWeb img
 {
@@ -354,12 +369,7 @@ text-align: center;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
-.tagToLCICK
-{
-    display: flex;
-    flex-direction: end;
-    justify-content: end;
-}
+
 .restaurantWeb a
 {
     font-size: 16px;
